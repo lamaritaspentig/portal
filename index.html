@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMARITA - SMPN 3 Makassar</title>
+    <link rel="icon" href="spentig.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            /* Mengubah latar belakang body menjadi abu-abu muda agar kontras dengan header putih */
+            background-color: #f0f2f5; 
+            font-family: 'Poppins', sans-serif; 
+        }
+        
+        .hero-section {
+            /* Latar belakang putih untuk header */
+            background-color: #ffffff;
+            /* Warna teks menjadi gelap agar terbaca di latar putih */
+            color: #333333;
+            padding: 50px 20px 70px 20px; /* Padding disesuaikan */
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            /* Bayangan dibuat lebih halus */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        /* Gaya untuk Logo Gambar */
+        .hero-logo {
+            max-width: 100%;
+            height: auto;
+            /* Atur ketinggian maksimal logo agar tidak terlalu besar. 
+               Sesuaikan angka 180px ini sesuai kebutuhan ukuran logo Anda. */
+            max-height: 180px; 
+            margin-bottom: 30px;
+        }
+
+        /* Gaya Khusus untuk Judul LAMARITA (Teks) */
+        .title-lamarita {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800; 
+            letter-spacing: 1px;
+            /* text-shadow dihapus agar terlihat bersih di latar putih */
+            color: #0d6efd; /* Memberi aksen warna biru pada teks utama */
+        }
+
+        .subtitle-lamarita {
+            font-weight: 400;
+            color: #6c757d; /* Warna abu secondary */
+        }
+
+        .school-name {
+            font-weight: 600;
+            color: #212529;
+        }
+
+        /* Gaya Menu Cards (Tetap sama) */
+        .menu-card {
+            background-color: #ffffff; /* Memastikan card berlatar putih */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .menu-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            color: #0d6efd;
+        }
+        
+        .icon-box {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section text-center mb-5">
+        <div class="container">
+            <img src="logo-lamarita.png" alt="Logo LAMARITA" class="hero-logo img-fluid">
+        </div>
+    </header>
+
+    <main class="container mb-5" style="margin-top: -30px;"> <div class="row g-4 justify-content-center text-center z-1 position-relative">
+            
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://rapor.smpn3mks.sch.id/login" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-file-earmark-bar-graph icon-box"></i>
+                        <h5 class="card-title fw-semibold">e-Rapor</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://siadin.smpn3mks.sch.id" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-laptop icon-box"></i>
+                        <h5 class="card-title fw-semibold">e-Lamarita</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://kepo.smpn3mks.sch.id/" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-people icon-box"></i>
+                        <h5 class="card-title fw-semibold">KEPO Murid</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://asesmen.smpn3mks.sch.id" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-journal-check icon-box"></i>
+                        <h5 class="card-title fw-semibold">Asesmen</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://myasn.bkn.go.id/" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-person-badge icon-box"></i>
+                        <h5 class="card-title fw-semibold">ASN Digital</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://info.gtk.kemendikdasmen.go.id/" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-info-circle icon-box"></i>
+                        <h5 class="card-title fw-semibold">Info GTK</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <a href="https://gtk.belajar.kemendikdasmen.go.id/auth/login/" class="card h-100 menu-card p-4 shadow-sm">
+                    <div class="card-body p-0">
+                        <i class="bi bi-diagram-3 icon-box"></i>
+                        <h5 class="card-title fw-semibold">SIMPKB</h5>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-4 text-muted mt-auto">
+        <div class="container">
+            <small>&copy; 2026 UPT SPF SMP Negeri 3 Makassar. All Rights Reserved.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

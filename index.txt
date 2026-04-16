@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMARITA UPT SPF SMPN 3 Makassar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(to right, #007bff, #0056b3); /* Contoh gradient biru */
+            color: white;
+            padding: 8rem 0; /* Padding atas bawah untuk ketinggian Jumbotron */
+            border-radius: 0; /* Menghilangkan border-radius jika ada di body/container lain */
+        }
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .card-menu {
+            border: none;
+            border-radius: 1rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            cursor: pointer;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Bayangan default */
+        }
+        .card-menu:hover {
+            transform: translateY(-5px); /* Efek naik saat hover */
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25); /* Bayangan lebih gelap saat hover */
+        }
+        .card-menu .card-body {
+            padding: 2rem;
+            text-align: center;
+        }
+        .card-menu .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #007bff; /* Warna icon default */
+        }
+        .card-menu .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+            border-top: 1px solid #e9ecef;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section text-center d-flex align-items-center justify-content-center">
+        <div class="container">
+            <h1 class="hero-title mb-3"><strong>Selamat Datang di LAMARITA</strong></h1>
+            <p class="hero-subtitle lead">Layanan Administrasi dan Informasi Berbasis Digital <br>UPT SPF SMP Negeri 3 Makassar.</p>
+        </div>
+    </header>
+
+    <main class="container py-5">        
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-file-earmark-bar-graph card-icon text-success"></i>
+                        <h5 class="card-title">e-Rapor</h5>
+                        <p class="card-text text-muted small">Aplikasi e-Rapor oleh Kemdikbudristek.</p>
+                        <a href="https://rapor.smpn3mks.sch.id/login" class="btn btn-outline-success mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-file-earmark-bar-graph card-icon text-success"></i>
+                        <h5 class="card-title">e-Lamarita</h5>
+                        <p class="card-text text-muted small">Layanan Administrasi & Informasi Berbasis Digital</p>
+                        <a href="https://script.google.com/a/~/macros/s/AKfycbzDT-T4d8WC4ovffjhEYSS1wDIqTGIGF2-YEbsuhidjPVOwKBqSYF05bZg56mTpIORX/exec" class="btn btn-outline-success mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-person-lines-fill card-icon text-info"></i>
+                        <h5 class="card-title">KEPO Murid</h5>
+                        <p class="card-text text-muted small">Kendali Elektronik Pelanggaran Online Murid.</p>
+                        <a href="https://kepo.smpn3mks.sch.id" class="btn btn-outline-info mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-person-workspace card-icon text-primary"></i>
+                        <h5 class="card-title">Asesmen</h5>
+                        <p class="card-text text-muted small">Asesmen Murid berbasis CBT.</p>
+                        <a href="#" class="btn btn-outline-primary mt-auto">Coming Soon!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-calendar-check card-icon text-warning"></i>
+                        <h5 class="card-title">SIGMA</h5>
+                        <p class="card-text text-muted small">Sistem Informasi Guru dan Manajemen Akademik.</p>
+                        <a href="#" class="btn btn-outline-warning mt-auto">Coming Soon!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-book card-icon text-secondary"></i>
+                        <h5 class="card-title">ASN Digital</h5>
+                        <p class="card-text text-muted small">Portal ASN Digital.</p>
+                        <a href="https://myasn.bkn.go.id/" class="btn btn-outline-secondary mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-wallet-fill card-icon text-danger"></i>
+                        <h5 class="card-title">Rumah Pendidikan</h5>
+                        <p class="card-text text-muted small">Portal platform digital Kemendikdasmen.</p>
+                        <a href="https://ptk.datadik.kemendikdasmen.go.id/" class="btn btn-outline-danger mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-building card-icon text-dark"></i>
+                        <h5 class="card-title">Info GTK</h5>
+                        <p class="card-text text-muted small">Portal untuk GTK.</p>
+                        <a href="https://info.gtk.dikdasmen.go.id/" class="btn btn-outline-dark mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card card-menu h-100">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <i class="bi bi-gear-fill card-icon text-muted"></i>
+                        <h5 class="card-title">SIMPKB</h5>
+                        <p class="card-text text-muted small">Sistem Informasi Manajemen Pengembangan Keprofesian Berkelanjutan</p>
+                        <a href="https://gtk.belajar.kemendikdasmen.go.id/auth/login/" class="btn btn-outline-secondary mt-auto">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center text-muted">
+        <div class="container">
+            <p class="mb-0">&copy; LAMARITA. Semua Hak Cipta Dilindungi.</p>
+            <p class="mb-0">UPT SPF SMP Negeri 3 Makassar</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
